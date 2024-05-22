@@ -36,4 +36,4 @@ const MoviePage = async ({params}) => {
     </div>
   )
 }
-export default MoviePageage
+export default MoviePage
