@@ -9,8 +9,8 @@ const SearchPage = async ({params}) => {
 
     const results = data.results;
 
-    console.log(data);
-    console.log(results);
+    // console.log(data);
+    // console.log(results);
 
   return (
     <div>

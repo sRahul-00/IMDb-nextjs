@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const API_KEY = process.env.API_KEY;
 
-const page = async ({params}) => {
+const MoviePage = async ({params}) => {
     const id = params.id;
     const res = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}`);
     const movie = await res.json();
@@ -36,4 +36,4 @@ const page = async ({params}) => {
     </div>
   )
 }
-export default page
+export default MoviePageage
