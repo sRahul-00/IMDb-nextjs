@@ -1,4 +1,4 @@
-const page = () => {
+const Page = () => {
   return (
     <div className="max-w-6xl mx-auto space-y-5 p-3">
         <h1 className="text-2xl text-amber-700 font-medium">About</h1>
@@ -34,4 +34,4 @@ const page = () => {
     </div>
   )
 }
-export default page
+export default Page
